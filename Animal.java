@@ -9,6 +9,6 @@ public abstract class Animal implements Comparable<Animal>{
 		return names;
 	}
 	public int compareTo(Animal a){
-		return this.getName()-a.getName();
+		return this.getLegs()-a.getLegs();
 	}
 }
